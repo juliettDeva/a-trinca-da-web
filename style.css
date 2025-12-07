@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex; /* Exibição flexível */
+    justify-content: center; /* Justificar-conteúdo: centro */
+    align-items: center; /* Alinhar-itens: centro */
+    height: 100vh; /* Altura: 100vh */
+    margin: 0; /* Margem: 0 */
+    background-color: #aa938c; /* Cor de fundo: #331F19 (Fundo neutro) */
+}
+
+.container {
+    text-align: center;
+    background-color: #CBBBA7;
+    padding: 20px;
+    border-radius: 8px; /* Raio da borda */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra da caixa */
+    width: 90%; /* Largura */
+    max-width: 600px; /* Largura máxima: 600px */
+    border: 2px solid #8B7D70; /* Borda: 2px sólido #8B7D70 */
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    color: black;
+    font-size: 1.1em;
+}
+
+button {
+    background-color: #60041A; /* Cor de fundo: #60041A */
+    color: #F4F0EA; /* Cor: #F4F0EA */
+    padding: 10px 20px; /* Preenchimento: 10px 20px */
+    border: none; /* Borda: nenhuma */
+    border-radius: 5px; /* Raio da borda: 5px */
+    cursor: pointer; /* Cursor: ponteiro */
+    font-size: 1em; /* Tamanho da fonte: 1em */
+    transition: background-color 0.3s ease-in-out; /* Transição: cor de fundo 0.3s facilidade */
+    margin-top: 10px; /* Margem superior: 10px */
+}
+
+button:hover { /* Botão: passar o mouse */
+    background-color: #A34743; /* Cor de fundo: #A34743 */
+}
+
+.saudacao {
+    font-size: 1.5em; /* Tamanho da fonte: 1.5em */
+    color: #60041a; /* Cor: #60041a */
+    margin-top: 10px; /* Margem superior: 10px */
+}
